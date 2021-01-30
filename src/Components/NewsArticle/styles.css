@@ -1,0 +1,45 @@
+.post {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgb(226, 226, 226);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 2rem;
+}
+
+.post > div {
+  width: 60%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 1rem;
+}
+
+.post h2,
+h3,
+p {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.post h3,
+p {
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+
+.post a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: rgb(14, 90, 255);
+}
+
+.post img {
+  height: 200px;
+}

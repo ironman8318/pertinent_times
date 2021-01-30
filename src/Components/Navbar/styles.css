@@ -1,0 +1,29 @@
+
+.navbar{
+    padding : 2rem;
+    background :#f0f0f0;
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom : 4rem;
+}
+
+.navbar ul{
+    flex-grow : 1;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin : 0 4rem;
+    list-style : none;
+}
+
+.navbar ul li{
+    color : black;
+    font-size : 1.8rem;
+    text-transform: uppercase;
+    margin-left : 2rem;
+    cursor : pointer;
+}
